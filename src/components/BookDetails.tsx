@@ -30,7 +30,7 @@ export const BookDetails = (props: any) => {
   };
 
   return (
-    <div id={"deatils"}>
+    <div className="book-details">
       <p>Output book detail here:</p>
       {detailsOutput()}
     </div>
